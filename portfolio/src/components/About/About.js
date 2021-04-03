@@ -19,7 +19,7 @@ import Footer from "../Footer/Footer.js";
           <section id="about">
             <div className="row">
               <div className="three columns">
-                <img className="profile-pic" src={profilepic} alt="Nordic Giant Profile Pic" />
+                <img className="profile-pic" src={profilepic} alt="Headshot" />
               </div>
               <div className="nine columns main-col">
                 <h2>About Me</h2>
