@@ -1,35 +1,38 @@
 import React from "react";
 // import logo from "./logo.svg";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Portfolio from "./components/Portfolio/Portfolio.js";
-import Contact from "./components/Contact/Contact.js";
-import About from "./components/About/About.js";
-import Header from "./components/Header/Header.js";
-import Footer from "./components/Footer/Footer.js";
-import ResumeInfo from "./ResumeInfo";
-import Background from "./components/Background/Background.js"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Portfolio from "./pages/Portfolio.js";
+import Contact from "./pages/Contact.js";
+import LandingPage from "./pages/LandingPage.js";
+import AboutMe from "./pages/AboutMe.js";
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
+import Background from "./components/Background.js"
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
       <Background/>
         <Header />
         <Switch>
-        <Route exact path={["/", "/about"]}>
-          <About ResumeInfo={ResumeInfo} />
+        <Route exact path="/">
+          <LandingPage/>
         </Route>
-        <Route exact path="/portfolio">
-          <Portfolio ResumeInfo={ResumeInfo} />
+        <Route exact path="/About">
+          <AboutMe/>
         </Route>
-        <Route exact path="/contact">
-          <Contact ResumeInfo={ResumeInfo} />
+        <Route exact path="/Portfolio">
+          <Portfolio/>
         </Route>
-        <Footer ResumeInfo={ResumeInfo} />
+        <Route exact path="/Contact">
+          <Contact/>
+        </Route>
+        <Footer/>
         </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
