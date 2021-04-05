@@ -1,12 +1,12 @@
 import React from "react";
-import headshot from "./headshot.JPG";
+import headshot from "../Assets/images/headshot.JPG";
 import { Typography } from "@material-ui/core";
 import "../components/About.scss";
 import portfolioResume from "../Assets/other/portfolioResume.pdf"
 
 const LandingPage = () => {
   return (
-    <React.Fragment>
+    <div class= "landingpage">
       <Typography
         variant="h2"
         display="block"
@@ -15,6 +15,7 @@ const LandingPage = () => {
           margin: "1rem",
           fontSize: "1.6rem",
           textTransform: "uppercase"
+          
         }}
       >
       </Typography>
@@ -32,7 +33,7 @@ const LandingPage = () => {
           <a target="_blank" rel="noreferrer" href={portfolioResume} button type="button" class="btn btn-info"><i class="far fa-file"></i>Resume</a>
         </div>
       </div>
-    </React.Fragment>
+      </div>
   );
 };
 

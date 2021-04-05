@@ -1,6 +1,7 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom'; // Import the Link component
 import './App.css';
+import { burgerzilla, codingquiz, project1, readme, weatherapp} from "../Assets/images"
 
 function Thumbnail(props) {
     return (

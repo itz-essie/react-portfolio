@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Typography } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
@@ -7,35 +7,32 @@ import { Element } from "react-scroll";
 import "../components/Contact.css";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({name: "", email: "", message: ""})
+ 
+  const handleInputChange = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value})
+  }
+
   const handleSubmit = e => {
     e.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
-    const resetForm = () => {
-      document.getElementById("contact-form").reset();
-    };
-   
+
     axios({
       method: "POST",
       url: "URLOFBACKEND/email",
-      data: {
-        name: name,
-        email: email,
-        message: message
-      } 
+      data: formData
     }).then(response => {
       console.log("response:", response);
       if (response.data.message === "success") {
         alert("Message Sent.");
-        resetForm();
       } else if (response.data.msg === "fail") {
         alert("Message failed to send.");
-      }
-    });
+      } 
+    }) 
+    setFormData({name: "", email: "", message: ""})
   };
   return (
     <React.Fragment>
+      {console.log(formData)}
       <Typography
         variant="h2"
         display="block"
@@ -69,7 +66,7 @@ export default function Contact() {
             borderRadius: "10px"
           }}
         >
-          <TextField
+          <TextField name = "name" onChange={e => handleInputChange(e)}
             label="Name"
             type="text"
             margin="normal"
@@ -77,7 +74,7 @@ export default function Contact() {
             id="name"
             placeholder="Enter your name"
           />
-          <TextField
+          <TextField name = "email" onChange={e => handleInputChange(e)}
             label="Email"
             type="email"
             id="email"
@@ -85,7 +82,7 @@ export default function Contact() {
             variant="outlined"
             placeholder="Enter your email"
           />
-          <TextField
+          <TextField name = "message" onChange={e => handleInputChange(e)}
             label="Message"
             id="message"
             multiline
