@@ -2,6 +2,7 @@ import React from "react";
 import headshot from "../Assets/images/headshot.JPG";
 import { Typography } from "@material-ui/core";
 import "../components/About.scss";
+import Typist from "react-typist";
 import portfolioResume from "../Assets/other/portfolioResume.pdf"
 
 const LandingPage = () => {
@@ -15,13 +16,13 @@ const LandingPage = () => {
           margin: "1rem",
           fontSize: "1.6rem",
           textTransform: "uppercase"
-          
         }}
       >
       </Typography>
       <div className="name">
         <img class= "profileimg" src={headshot} alt="profile_photo" className="img" />
-        <h1>Esiena Ekwofia</h1>
+        <Typist className="lead typist" cursor={{ show: false }}>
+          <h1>Esiena Ekwofia</h1></Typist>
         <div className="subtitle">
           <h3>I am a Full stack web developer. I give life to designs</h3>
           <p>
