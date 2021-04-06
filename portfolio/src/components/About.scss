@@ -15,7 +15,8 @@
     align-self: center;
   }
   
-  h1 {
+  .leadtypist {
+    color: white;
     align-self: end;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -38,6 +39,7 @@
     font-size: 2.5em;
     margin: 0;
     margin-left: 10px;
+    color: white;
   }
   
   p {
@@ -84,14 +86,18 @@
       }
   
       .subtitle {
-        justify-self: center;
         align-self: start;
         grid-column: 1/2;
         grid-row: 3/4;
-        h3,
-        p {
-          text-align: center;
-        }
+        text-align: center;
       }
     }
+  }
+
+  .space {
+    margin: 10px;
+  }
+
+  .container1{
+    text-align:  center;
   }

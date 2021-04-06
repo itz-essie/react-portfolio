@@ -5,8 +5,8 @@ import Portfolio from "./pages/Portfolio.js";
 import Contact from "./pages/Contact.js";
 import LandingPage from "./pages/LandingPage.js";
 import AboutMe from "./pages/AboutMe.js";
-import Header from "./components/Header.js";
-import Footer from "./components/Footer.js";
+import Header from "./components/Navbar/Header.js";
+import Footer from "./components/Footer/Footer.js";
 import "./App.css";
 
 function App() {

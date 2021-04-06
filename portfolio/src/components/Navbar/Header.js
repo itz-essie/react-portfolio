@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLinks from "../components/NavLinks";
+import NavLinks from "./NavLinks";
 import TogglerBtn from './TogglerBtn';
 import WrapNav from './WrapNav';
 import ToggleLogo from "./ToggleLogo"

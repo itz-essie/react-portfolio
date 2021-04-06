@@ -55,8 +55,6 @@ function ProjectsCard() {
               <p className="card-text text-left description">{project.description}</p>
               <p className="card-text cardCenter">
                    <small className="text-muted">{project.technologies}</small>
-                {/* // })} */}
-                {/* <small className="text-muted">HTML | CSS | Bootstrap</small> */}
               </p>
               <a href={project.deployed} target="_blank" rel="noreferrer">
                 <button type="button" className="btn btn-dark marginRight">

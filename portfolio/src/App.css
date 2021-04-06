@@ -1,17 +1,5 @@
-/* html {
-height: 100vh;
-} */
-
-/* .App {
-  background-image: url(./components/cover.jpg);
-  min-width: 1024px;
-  height: 100%;
-  background-size: cover;
-} */
-
-
 body {
-  background-image: url("./Assets/images/portfolio-background.jpg");
+  background-image: url("./Assets/images/backgroundimg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
