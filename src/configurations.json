@@ -1,0 +1,47 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "FirstName": "Esiena",
+  "MiddleName": "H.",
+  "LastName": "Ekwofia",
+  "devDesc": "| Web Developer | Mental Health Advocate | Full Stack Developer  ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/anglesvar",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-facebook",
+      "url": "https://www.facebook.com/itzEssie",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fa-instagram",
+      "url": "https://www.instagram.com/anglesvar",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/esiena-ekwofia/",
+      "style": "socialicons"
+    }
+  ],
+  "aboutHeading": "About Me",
+  "showInstaProfilePic": true,
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "ShesTechie_",
+  "instaQuerry": "/?__a=1",
+  "aboutDescription": "Hi! My name is Esiena Ekwofia. I love traveling and doing anything active or adventurous including,hiking, biking, zip-lining, camping, you name it. As a recent Graduate of Columbia School of Engineering, Full-Stack Web Development certification program, I am an aspiring Full-Stack web developer with a focus on. I currently work as a social worker in NYC, and hope to merge my passion for mental health and shattering the stigmas surrounding mental health imarginalized communities, with my new found love of everything tech! I'm always eager to learn new inspiring technologies. ❤",
+  "projectHeading": "My Works",
+  "gitHubLink": "https://api.github.com/itz-essie",
+  "gitHubUsername": "itz-essie",
+  "gitHubQuerry": "/repos?sort=created&direction=desc",
+  "projectsLength": 6,
+  "showNavigationbar": true
+}
