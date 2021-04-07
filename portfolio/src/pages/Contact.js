@@ -27,8 +27,7 @@ export default function Contact() {
       } else if (response.data.msg === "fail") {
         alert("Message failed to send.");
       } 
-    }) 
-    setFormData({name: "", email: "", message: ""})
+    }).then(() => setFormData({name: "", email: "", message: ""}))
   };
   return (
     <React.Fragment>
