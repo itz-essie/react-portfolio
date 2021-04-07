@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8163c323.chunk.css",
+    "main.js": "/static/js/main.87877eae.chunk.js",
+    "main.js.map": "/static/js/main.87877eae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d6496cde.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d6496cde.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9985027f.chunk.js": "/static/js/2.9985027f.chunk.js",
+    "static/js/2.9985027f.chunk.js.map": "/static/js/2.9985027f.chunk.js.map",
+    "static/js/3.e6976bf1.chunk.js": "/static/js/3.e6976bf1.chunk.js",
+    "static/js/3.e6976bf1.chunk.js.map": "/static/js/3.e6976bf1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.8163c323.chunk.css.map": "/static/css/main.8163c323.chunk.css.map",
+    "static/js/2.9985027f.chunk.js.LICENSE.txt": "/static/js/2.9985027f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/backgroundimg.9ce01668.jpg",
+    "static/media/burgerzilla.0bf60939.png": "/static/media/burgerzilla.0bf60939.png",
+    "static/media/codingquiz.f1d713a9.png": "/static/media/codingquiz.f1d713a9.png",
+    "static/media/headshot.aabca4ae.JPG": "/static/media/headshot.aabca4ae.JPG",
+    "static/media/portfolioResume.e1c44d89.pdf": "/static/media/portfolioResume.e1c44d89.pdf",
+    "static/media/project1.96d4c04c.png": "/static/media/project1.96d4c04c.png",
+    "static/media/readme.df93c20b.png": "/static/media/readme.df93c20b.png",
+    "static/media/weatherapp.efd6845f.png": "/static/media/weatherapp.efd6845f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6496cde.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9985027f.chunk.js",
+    "static/css/main.8163c323.chunk.css",
+    "static/js/main.87877eae.chunk.js"
+  ]
+}
