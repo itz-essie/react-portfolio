@@ -1,10 +1,15 @@
-import React from "react"
+import React from "react";
+import Typist from "react-typist";
 
 const AboutInfo = () => {
   return (
-    <div className="col-lg-9 text-secondary">
-       
-              <h1>About Me</h1>
+    <div className="col-lg-9 text-light">
+      <Typist className="leadtypist" cursor={{ show: false }}>
+          <h1>Esiena Ekwofia</h1>
+        </Typist>
+       <br></br>
+       <br></br>
+        
             <p className="lead">My name is Esiena Ekwofia and I am a Full stack web developer. I give life to designs, by creating Beautiful things with quality and elegance! I current work as a
           social worker in a legal setting. Seeking new and more interesting challenges, I took the
           leap into programming and web development. I love making beautiful,
@@ -12,9 +17,6 @@ const AboutInfo = () => {
           applications come to life. Aside from coding, love traveling and doing
           anything active or adventurous including, hiking, biking, zip-lining,
           camping, you name it.</p>
-              <br></br>     
-              <br></br>
-              <br></br>
            <p className= "lead">As a recent Graduate of Columbia School of
           Engineering, Full-Stack Web Development certification program, I am an
           aspiring Full-Stack web developer with a focus on. I currently work as

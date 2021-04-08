@@ -12,3 +12,11 @@ body {
 .bottom{
   flex-shrink: 0;
 }
+
+.figure{
+  padding-top: 10px;
+}
+
+.lead {
+  font-weight: bolder
+}

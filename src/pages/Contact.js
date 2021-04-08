@@ -4,6 +4,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import axios from "axios";
 import "../components/Contact.css";
+import Typist from "react-typist";
 
 export default function Contact() {
   const [formData, setFormData] = useState({name: "", email: "", message: ""})
@@ -42,7 +43,8 @@ export default function Contact() {
           textTransform: "uppercase",
         }}
       >
-        <h1>Contact Me</h1>
+        <Typist className="leadtypist" cursor={{ show: false }}>
+          <h1>Contact Me</h1> </Typist>
       </Typography>
       <div
         style={{
