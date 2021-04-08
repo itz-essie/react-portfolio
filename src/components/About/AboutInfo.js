@@ -1,14 +1,12 @@
 import React from "react"
-import Typist from "react-typist";
 import "./About.scss"
 
 const AboutInfo = () => {
   return (
     <div className="col-lg-9 text-secondary">
-            <Typist leadtypist>
+       
               <h1>About Me</h1>
-            </Typist>
-            <p className="lead"> My name is Esiena Ekwofia and I am a Full stack web developer. I give life to designs, by creating Beautiful things with quality and elegance! I current work as a
+            <p className="lead">My name is Esiena Ekwofia and I am a Full stack web developer. I give life to designs, by creating Beautiful things with quality and elegance! I current work as a
           social worker in a legal setting. Seeking new and more interesting challenges, I took the
           leap into programming and web development. I love making beautiful,
           robust UIs for broad audiences, solving tricky problems, and seeing my
