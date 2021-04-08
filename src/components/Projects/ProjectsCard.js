@@ -2,40 +2,8 @@ import React from 'react';
 import {Projects} from "../../utils/Projects.js"
 import "./style.css"
 
-
-// function ProjectsCard() {
-//   return (
-//     <div class = "row">
-//    {Projects.map((project) => (
-//     <div class="col-sm-6 col-md-4">
-//      <div key= {project.id}>
-//           <h3>{project.title}</h3>
-//           <p>{project.description}</p>
-//           <h3>{project.technogies}</h3>
-//           <img src={project.image}
-//                 className="rounded mx-auto d-block img-fluid img-thumbnail imgsize" alt={project.title} />
-//           <a href={project.githubRepo}><button type="button"
-//                     className="btn btn-info rounded"><i className="fab fa-github">&nbsp;</i>
-//               Github Repo</button></a>
-//               <a href={project.deployed}><button type="button"
-//                     className="btn btn-info rounded"><i className="fab fa-github">&nbsp;</i>
-//               See it Live</button></a>
-//            <Footer/>
-//        </div>
-//        </div>
-
-//    ))}
-//    </div>
-//   )
-//    }
- 
-// export default ProjectsCard;
-
-
-
 function ProjectsCard() {
   return Projects.map((project) => {
-    // let languageString = "";
     return (
       <section class="container">
        {/* <h1 className="projects">Projects</h1> */}

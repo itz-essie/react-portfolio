@@ -7,9 +7,6 @@ function NavLinks(){
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li className="nav-item">
-                    <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}><i className="fas fa-home"></i>Home</Link>
-                </li>
                 <li className="nav-item">
                     <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}><i
                         className="far fa-address-card mr-1"></i>About</Link>

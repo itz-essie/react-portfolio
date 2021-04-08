@@ -1,6 +1,13 @@
 body {
-  background-image: url("./Assets/images/backgroundimg2.jpg");
+  background-image: url("./Assets/images/portfolio-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bottom{
+  flex-shrink: 0;
 }

@@ -3,6 +3,7 @@ import codingquiz from "../Assets/images/codingquiz.png"
 import project1 from "../Assets/images/project1.png"
 import readme from "../Assets/images/readme.png"
 import weatherapp from "../Assets/images/weatherapp.png"
+import workouttracker from "../Assets/images/workouttracker.png"
 
 export const Projects = [
 
@@ -45,13 +46,15 @@ export const Projects = [
         image:codingquiz,
         githubRepo: "https://github.com/itz-essie/Coding-Quiz",
         deployed: "https://itz-essie.github.io/Coding-Quiz/"
+      },
+      {id: 5,
+        title:"Workout Tracker",
+        description:"This application is a workout/fitness tracker that allows a user to create, track, and view daily workouts. They are given the option to log multiple workouts a day, and the application tracks the name, type, weight, sets, reps, and duration if it is a resistance exercise, and tracks the distance traveled if it is cardio. All of this information is populated in different charts for easy readability and as a way for users to look at all their workouts as a whole.",
+        technologies: "HTML, CSS, JavaScript, Node.js, Express, Morgan, MongoDB, Mongoose",
+        image:workouttracker,
+        githubRepo: "https://github.com/itz-essie/workout_tracker",
+        deployed: "https://polar-stream-46941.herokuapp.com/"
       }
-      // {id: 5,
-      //   title:"",
-      //   description:"",
-      //   image:codingquiz,
-      //   url:""
-      // }
     ]
 
   
