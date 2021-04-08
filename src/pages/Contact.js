@@ -40,10 +40,9 @@ export default function Contact() {
           margin: "1rem",
           fontSize: "1.6rem",
           textTransform: "uppercase",
-          fontFamily: '"Bungee", cursive'
         }}
       >
-        <h1 name="contact-me">Contact Me</h1>
+        <h1>Contact Me</h1>
       </Typography>
       <div
         style={{
