@@ -4,6 +4,7 @@ import project1 from "../Assets/images/project1.png"
 import readme from "../Assets/images/readme.png"
 import weatherapp from "../Assets/images/weatherapp.png"
 import workouttracker from "../Assets/images/workouttracker.png"
+import booksearch from "../Assets/images/booksearch.png"
 
 export const Projects = [
 
@@ -54,6 +55,15 @@ export const Projects = [
         image:workouttracker,
         githubRepo: "https://github.com/itz-essie/workout_tracker",
         deployed: "https://polar-stream-46941.herokuapp.com/"
+      },
+      {
+        id: 6,
+        title: "Google Book Search",
+        description: "React-based Google Books Search app. Built to practice creating React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. Uses Node, Express and MongoDB so that users can save books to review or purchase later.",
+        technologies: " React, CSS, Bootstrap, JSX, Node.js, Express, MongoDB, and Mongoose", 
+        image: booksearch, 
+        githubRepo: "https://github.com/itz-essie/react-google-book-search",
+        deployed: "https://lit-chamber-01164.herokuapp.com/"
       }
     ]
 
