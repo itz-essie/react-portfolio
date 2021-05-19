@@ -10,16 +10,15 @@ const AboutInfo = () => {
        <br></br>
        <br></br>
         
-            <p className="lead">My name is Esiena Ekwofia and I am a Full stack web developer. I give life to designs, by creating Beautiful things with quality and elegance! I current work as a
+            <p className="lead">My name is Esiena Ekwofia and I am a Full-Stack Web Developer. I give life to designs, by creating Beautiful things with quality and elegance! I currently work as a
           social worker in a legal setting. Seeking new and more interesting challenges, I took the
           leap into programming and web development. I love making beautiful,
           robust UIs for broad audiences, solving tricky problems, and seeing my
-          applications come to life. Aside from coding, love traveling and doing
+          applications come to life. Aside from coding, I love traveling and doing
           anything active or adventurous including, hiking, biking, zip-lining,
-          camping, you name it.</p>
+          and camping.</p>
            <p className= "lead">As a recent Graduate of Columbia School of
-          Engineering, Full-Stack Web Development certification program, I am an
-          aspiring Full-Stack web developer with a focus on. I currently work as
+          Engineering, Full-Stack Web Development certification program, I am looking to Leverage my background in social work to provide unique perspectives on how end-users interact with websites and software platforms  I currently work as
           a social worker in NYC, and hope to merge my passion for mental health
           and shattering the stigmas surrounding mental health imarginalized
           communities, with my new found love of everything tech! I'm always
