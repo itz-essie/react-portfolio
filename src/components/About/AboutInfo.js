@@ -21,8 +21,8 @@ const AboutInfo = () => {
           Engineering, Full-Stack Web Development certification program, I am looking to Leverage my background in social work to provide unique perspectives on how end-users interact with websites and software platforms  I currently work as
           a social worker in NYC, and hope to merge my passion for mental health
           and shattering the stigmas surrounding mental health imarginalized
-          communities, with my new found love of everything tech! I'm always
-          eager to learn new inspiring technologies. ❤
+          communities, with my new found love of everything tech. I'm always
+          eager to learn new inspiring technologies!
             </p>
           </div>
   )

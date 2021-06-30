@@ -1,9 +1,12 @@
 import React from "react";
 import Resume from "../../Assets/other/portfolioResume.pdf";
+import ButtonMailto from "./Email.js"
 
 function EssentialLinks() {
+  
     return (
         <ul className="list-unstyled">
+          <li><button type="button" className="btn btn-dark rounded"><i class="fas fa-envelope-open-text"></i> <ButtonMailto label="Eekwofia@gmail.com" mailto="mailto:eekwofia@gmail.com" /></button></li><br></br>
             <li><a
               target="_blank"
               rel="noreferrer"href={Resume}><button type="button" className="btn btn-dark rounded"><i
